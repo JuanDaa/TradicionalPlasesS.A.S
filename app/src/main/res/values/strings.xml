@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tradicional Plases S.A.S</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregar_al_pedido">Agregar al Pedido</string>
+    <string name="cantidad_a_pedir">Cantidad a pedir</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="sincronizar_pedido">Sincronizar pedido</string>
+</resources>

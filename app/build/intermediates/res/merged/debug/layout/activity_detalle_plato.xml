@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalle_plato"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.senasoft.com.tradicionalplases.DetallePlato">
+    <include layout="@layout/toolbar"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescripcionPlato"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_below="@+id/imgDetalle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgDetalle"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtTituloPlato"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/agregar_al_pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAgPedido"
+        android:layout_below="@+id/editPedido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:id="@+id/editPedido"
+        android:hint="@string/cantidad_a_pedir"
+        android:layout_below="@+id/txtDescripcionPlato"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textSize="45sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTituloPlato"
+            android:gravity="center"
+            android:layout_marginTop="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

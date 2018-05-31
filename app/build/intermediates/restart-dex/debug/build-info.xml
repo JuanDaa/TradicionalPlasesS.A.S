@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="17"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="796532642734711"
+    token="-4876161272989799636"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="14837" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1079" />
+    <task
+        name="verifier"
+        duration="166" />
+
+    <artifact
+        location="C:\Users\Spy-Ghost\Desktop\Android\AppsExample\TradicionalPlasesS.A.S\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="796532642734711"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Spy-Ghost\Desktop\Android\AppsExample\TradicionalPlasesS.A.S\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
